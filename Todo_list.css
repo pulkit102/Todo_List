@@ -1,0 +1,64 @@
+/* Reset some default browser styles */
+body, h1, p, input, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  p {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  input, button {
+    margin-bottom: 10px;
+  }
+  
+  .js-todo-list, .js-todo-list1 {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the todo items */
+  .js-todo-list p, .js-todo-list1 span {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 8px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  /* Style the delete buttons */
+  button {
+    padding: 8px;
+    background-color: #ff5555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style the input fields */
+  input[type="text"], input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #cc0000;
+  }
+  
